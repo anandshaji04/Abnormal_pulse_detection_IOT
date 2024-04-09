@@ -1,0 +1,27 @@
+Here are the instructions for setting up the hardware:
+
+Hardware Setup:
+1. Connect Heart Rate Sensor Module to Arduino: Use male-to-female jumper wires to make the following connections:
+   - Connect the output pin of the heart rate sensor module to pin 2 of the Arduino.
+   - Connect the VCC pin of the heart rate sensor module to the 5V pin of the Arduino.
+   - Connect the GND pin of the heart rate sensor module to the GND pin of the Arduino.
+
+Once these connections are made, the hardware setup is complete. You can move on to setting up the software and cloud services.
+
+Software Setup:
+1. Install Arduino IDE: Download and install the Arduino IDE from the official website (https://www.arduino.cc/en/Main/Software) for your operating system.
+2. Upload Arduino Code: Open the Arduino IDE, copy the provided Arduino code (Arduino_Code.ino) into a new sketch, and upload it to your Arduino board.
+3. Set up Email Automation: Create an account on Mailgun (https://www.mailgun.com) and verify your phone number. Add a recipient email in the Domains section and generate sandbox credentials.
+4. Set up SMS Service: Sign up on Twilio (https://www.twilio.com), enable SMS services, and obtain your Account SID, Auth token, and phone number.
+5. Run Python Code: Use a DigitalOcean VPS or a dedicated Linux computer to run the provided Python code (Python_Code.py) for processing data, detecting abnormalities, and sending email and SMS alerts.
+
+Once the software setup is complete, you can proceed with testing the system.
+
+Linux Commands you would require:
+
+sudo apt-get -y update
+sudo apt install python3-pip
+sudo pip3 install boltiot
+sudo nano confi.py
+sudo nano confi.py
+ 
