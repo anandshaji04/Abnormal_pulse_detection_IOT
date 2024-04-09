@@ -17,3 +17,6 @@ This project aims to create a pulse monitoring system with abnormality detection
 - **Arduino Code**: Arduino code for collecting data from the heart rate sensor module and communicating with the Bolt WiFi module.
 - **Python Code**: Python code for processing data, detecting abnormalities, and sending email and SMS alerts.
 - **Readme File**: Instructions for setting up the hardware, software, and cloud services, along with project overview and repository content.
+
+## Credits
+This project tutorial was inspired by the online tutorial provided by Dr. Aghosh.
